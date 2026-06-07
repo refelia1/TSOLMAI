@@ -1,0 +1,25 @@
+# Sensitive credentials and auth files
+.claude/.credentials.json
+.claude.json
+.ssh/
+authorized_keys
+
+# Claude Code session and runtime files
+.claude/backups/
+.claude/sessions/
+.claude/ide/
+.claude/shell-snapshots/
+.claude/projects/**/*.jsonl
+.claude/.last-cleanup
+
+# System and cache files
+.bash_history
+.cache/
+.vscode-server/
+.dotnet/
+.copilot/
+.wget-hsts
+.sudo_as_admin_successful
+.bash_logout
+.bashrc
+.profile
